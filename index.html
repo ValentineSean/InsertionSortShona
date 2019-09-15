@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Maximum20</title>
+</head>
+<body>
+    <div id="main_body">
+        <!-- Left section -->
+        <div id="left_section">
+            <div id="propic">
+                <div id="propic_content">
+                    <div id="propic_front">
+                        <img src="images/cards.png" alt="">
+                    </div>
+                    <div id="propic_back">
+                        <h2 id="propic_title">Insertion Sort</h2>
+                        <h2 id="propic_subtitle">NESHONA</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div id="imitation">
+                    <img src="images/cards.png" alt="">
+            </div>
+
+            <div id="information1">
+                <h2>Ongororo yeInsertion Sort muchishona</h2>
+                <li>
+                    <ul>Chinyorwa ichi chakanyorwa mururimi rwamwai kuti chidzidzo chinyatsobatika namazvo</ul>
+                    <ul>Muchinyorwa chino munosanganisira kunotangira yavanoti 'Insertion sort'</ul>
+                    <ul>Munowanika zvakare pseudocode rinomiririra inonzi ne<i>varungu</i> 'Insertion Sort'</ul>
+                    <ul>Munobatanidzira zvakare mashandisiro ainoita nguva, ivo havo vanoiti 'Time complexity'</ul>
+                    <ul>Mashandisirwo enguva aya anoenderana neruzivo kana kuti dhata rinenge richida kushandwa racho ('input')</ul>
+                    <ul>Padandara pano pane muenzaniso zvakare unokwanisa kubatsira kunzwisisa chidzidzo ichi</ul>
+                </li>
+            </div>
+
+            <div id="information2">
+                <h2>Contact me:</h2>
+                <p>
+                        <a href="https://www.facebook.com/vale.chanengeta" target="_blank">Facebook</a> <br> <br>
+                        +263772279750 <br> <br>
+                        +263735532200
+                </p>
+            </div>
+
+            <div id="information3">
+                <h2>Mazwi angangovhiringa vanhu vatema vanogona English</h2>
+                <table id="help_table">
+                    <tr>
+                        <td id="shona_heading"><u>Shona</u></td>
+                        <td id="english_heading"><u>English</u></td>
+                    </tr>
+
+                    <tr>
+                        <td>Rinokwikwidzwa</td>
+                        <td>-Compared</td>
+                    </tr>
+
+                    <tr>
+                        <td>Indekisi</td>
+                        <td>-Index</td>
+                    </tr>
+
+                    <tr>
+                        <td>Uwandu</td>
+                        <td>-Number of</td>
+                    </tr>
+
+                    <tr>
+                        <td>Kumhanywa</td>
+                        <td>-Executed</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dzokororo</td>
+                        <td>-Iterations</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div id="middle_section">
+            <div id="introduction">
+                <h2><u>Introduction</u></h2>
+                <li>
+                    <ul>Inogadzira list rakarongedzwa kutangira mune risina kana chinhu (empty list)</ul>
+                    <ul>Mavalue anenge achitorwa mune list risina kurongeka achiiswa mune idzva rakarongedzwa.</ul>
+                    <ul>Mavalue aya anotorwa kutanga nerekutanga mune list rekutanga risina kurongeka, zvichienda zvakadaro kusvika kwarinoperera</ul>
+                    <ul>Panoiswa value mulist idzva rakarongeka rinokwikwidzwa neagara arimo ronoiswa panzvimbo yakafanira maererano nekukura kwarakaita</ul>
+                    <ul>Izvi zvinodzokorodzwa kusvika mavalue ese apinda mulist rakarongedzwa zvakarongeka</ul>
+                </li>
+            </div>
+            <div id="insertion_body">
+                <h2><u>Pseudocode nemashandisiro arinoita nguva yemukombiyuta</u></h2><br>
+                <img src="images/pseudocode.png" alt=""> <br>
+
+                <h3><u>Tsanangudzo pfupi:</u></h3>
+
+                <li>
+                    <ul>i- anomirira nhamba yepalist inonz indekisi inonanga value rega rega riri mulist</ul>
+                    <ul>j- inhamba zvekare yakafanana na i asi dzinonanga pamavalue akasiyana nguva nenguva</ul>
+                    <ul>k - variable munoiswa nhamba yakanongedzwa na j panguva iyoyo</ul>
+                    <ul>tj - uwandu wekumhanywa kwewhile loop pana j wega wega</ul>
+                    <ul>A.length uwandu wema nhamba ari mulist rapihwa zita rekuti 'A'</ul>
+                    <ul>Nguva inogona kutorwa nekumhanya mutsara umwe chete (Ci) by dzokororo ichaitwa pakumhanya mutsara umwe neumwe (n) inova iri Ci*n.</ul>
+                    <ul>Nguva yose inotorwa kumhanya insertion sort algorithm kusvika kumagumo T(n):</ul>
+                </li>
+
+                <img src="images/time_complexity.png" alt="" id="time_complexity_img">
+
+                <div id="example">
+                    <h3><u>Muenzaniso:</u></h3>
+                    
+                    <img src="images/example_pic.png" alt="" id="example_pic">
+                </div>
+            </div>
+        </div>
+        <div id="right_section">
+            <li>
+                <ul id="about" onclick="about()">about</ul>
+                <ul id="contact" onclick="contact()" data-hover="hi,, im Vale, click here to ask me anything..">contact</ul>
+                <ul id="services" onclick="services()">help</ul>
+            </li>
+        </div>
+    </div>
+
+    <footer id="footer">&copy;Valentine</footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
